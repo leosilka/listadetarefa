@@ -1,1 +1,92 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noticia Text', serif;
+    font-weight: 300;
+    text-align: center;
+    /* background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%); */
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+li {
+    padding: 0.938rem;
+    margin: 0.625rem;
+    font-size: 1em;
+    font-style: italic;
+    border-bottom: 0.125rem solid rgba(0, 0, 0, 0.2);
+}
+
+li>button {
+    border: none;
+    background-color: #ffffff;
+    font-size: 1em;
+    float: right;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
+li>button:hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+button {
+    cursor: pointer;
+}
+
+ul {
+    text-align: left;
+    margin: 0.625rem;
+    padding: 0.625rem;
+    list-style: none;
+    background: #ffffff;
+    border-radius: 0.625rem;
+    box-shadow: 0.188rem 0.25rem 0.875rem 0 rgba(0, 0, 0, 0.39);
+}
+
+.title {
+    font-family: 'Architects Daughter', cursive;
+    color: #ffffff;
+    font-size: 5em;
+    text-shadow: 0.188rem 0.313rem #000000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    padding: 1.25rem;
+    color: #ffffff;
+    border-radius: 1.875rem;
+    font-size: 1em;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+#modal {
+    text-align: left;
+    margin: 0.625rem;
+    padding: 0.625rem;
+    background: #ffffff;
+    border-radius: 0.625rem;
+    box-shadow: 0.188rem 0.25rem 0.875rem 0 rgba(0, 0, 0, 0.39);
+}
+
+input {
+    width: 100%;
+    line-height: 3.125rem;
+    text-indent: 0.625rem;
+    font-size: 1.2em;
+}
+
+.danger {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.313rem;
+    margin-top: 0.625rem;
+}
