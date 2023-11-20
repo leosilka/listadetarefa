@@ -10,8 +10,13 @@ Aonde desenvolvi uma página para criarmos nossa lista de tarefas.
 
 ## Instalação
 
-1. Clone o repositório
-2. Dentro da pasta dist, abra o seu powershell e instale o pacote do http-server:
+### 1. <span style="color: #1E90FF;">Clone o repositório</span>
+### 2. <span style="color: #1E90FF;">Realize o Build do projeto, para isso, na pasta principal, use o seguinte comando no seu cmd</span>
+```bash
+ng build --configuration=production
+```
+- Ele irá criar a pasta dist, este procedimento pode levar alguns minutos.
+### 3. <span style="color: #1E90FF;">Dentro da pasta dist, abra o seu powershell e instale o pacote do http-server:</span>
 - Instalação local (dentro da pasta dist)
 ```bash
 npm install http-server
@@ -20,12 +25,12 @@ npm install http-server
 ```bash
 npm install -g http-server
 ```
-3. Depois de instalado, você pode usá-lo para servir arquivos estáticos. Vá até o diretório onde estão os arquivos que deseja servir e execute:
+### 4. <span style="color: #1E90FF;">Depois de instalado, você pode usá-lo para servir arquivos estáticos. Vá até o diretório onde estão os arquivos que deseja servir e execute:</span>
 ```bash
 http-server ./
 ```
 ---
-## Contribuição
+## <span style="color: #1E90FF;">Contribuição</span>
 Se você deseja contribuir com este projeto, siga as estapas abaixo:
 1. Faça um fork do projeto
 2. Crie uma branch com sua feature (`git checkout -b feature/MinhaFeature`)
@@ -33,10 +38,10 @@ Se você deseja contribuir com este projeto, siga as estapas abaixo:
 4. Faça push para a branch (`git push origin feature/MinhaFeature`)
 5. Abra um Pull Request
 ---
-## Tecnologias Usadas
+## <span style="color: #1E90FF;">Tecnologias Usadas</span>
 
-<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
-<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+<img align="center" height="50" widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+<img align="center" height="50" widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
+<img align="center" height="50" widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+<img align="center" height="50" widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img align="center" height="50" widht="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
